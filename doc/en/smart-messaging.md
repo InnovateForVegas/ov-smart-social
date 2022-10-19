@@ -57,9 +57,16 @@ Individual stories may be converted into Issues, or consolidated or exploded as 
 
 ### Typical Uses
 
-- **Card**: As a Consumer, I need to know when my bus will arrive so that I can plan my arrival at the bus stop accordingly.
-  - **Conversation**: Each Consumer of transit services has their own journey to make from their actual point of origin to the bus stop at which they will wait for the arrival of their bus.
+- **Card**: As a Consumer, I would like to receive notifications from selected authentic agencies, services, and/or individuals via chat messages.
+  - **Conversation**: One goal of the Smart Messaging component of Smart Social is to enable point-to-point, end-to-end-encrypted notifications and two-way messaging in general. This would take the place of Twitter or other social media platforms for notifying members of a community of a particular situation, emergency or otherwise.
   - **Confirmation**:
-    - Consumer is able to determine estimated versus scheduled arrival time for any route at any stop, with statistical information presented in clear terms (% on time, etc)
+    - Consumer is able to receive select notifications from sources which have been authenticated and which are known to be trusted and authoritative.
+
+---
+
+- **Card**: As a Consumer, I would like to receive a digest of selected information and updates via email on a daily or other time interval.
+  - **Conversation**: One goal of the Smart Messaging component of Smart Social is to enable the dissemination of information to interested Consumers, in this case via Email. An email digest enables a Consumer to receive more information in fewer email messages, which they may save, read, or discard, at their discretion.
+  - **Confirmation**:
+    - Consumer is able to receive select pieces of information via email, collected in an email digest message.
 
 ---

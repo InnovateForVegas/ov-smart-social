@@ -61,9 +61,23 @@ Individual stories may be converted into Issues, or consolidated or exploded as 
 
 ### Typical Uses
 
-- **Card**: As a Consumer, I need to know when my bus will arrive so that I can plan my arrival at the bus stop accordingly.
-  - **Conversation**: Each Consumer of transit services has their own journey to make from their actual point of origin to the bus stop at which they will wait for the arrival of their bus.
+- **Card**: As a Consumer, I would like to be able to view a list of current announcements related to a topic or topics that interest me.
+  - **Conversation**: This is essentially a subscription to news or announcement topics, similar to subscribing to RSS feeds, following hashtags, etc. While this seems simple, it is a core feature of Smart News and in a larger sense, Smart Social. Properly-published items with geographical information included will support grouping and presentation by region among other facets.
   - **Confirmation**:
-    - Consumer is able to determine estimated versus scheduled arrival time for any route at any stop, with statistical information presented in clear terms (% on time, etc)
+    - Consumer is able to receive a current selection of news and announcement items according to some preferences of topics, keywords, or geographical region.
+
+---
+
+- **Card**: As a Consumer, I would like to view my selected news and announcement items in my web browser.
+  - **Conversation**: Viewing news and announcements according to selected query terms and filters via a desktop or mobile web browser should be considered baseline functionality.
+  - **Confirmation**:
+    - Consumer is able view their selected News items in their web browser of choice across platforms and devices.
+
+---
+
+- **Card**: As a Consumer, I would like to share a particular News or announcement item to others.
+  - **Conversation**: The modern era is built on the sharing economy, Consumer should be able to share a link discovered via their News feed to anyone, using social media tools, email, or Smart Social features, or any combination thereof.
+  - **Confirmation**:
+    - Consumer is able share a direct link to a selected News or announcement item using the sharing channel(s) of their choice.
 
 ---

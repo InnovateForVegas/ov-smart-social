@@ -25,7 +25,7 @@ The Smart Contacts component of Smart Social should function independently, but 
 
 ## Highest Priority Considerations
 
-It is often the case that a person would like to share one contact configuration in one context, and some other configuration in another. For examples (see User Stories section for more detail), a user may want to have contact information to share for one job or role, another set for a completely different job or role, and yet another configuraton for personal use without reference to any job or role. It is critical that the user always has control over which information is shared in which context, if at all.
+It is often the case that a person would like to share one contact configuration in one context, and some other configuration in another. For examples (see User Stories section for more detail), a user may want to have contact information to share for one job or role, another set for a completely different job or role, and yet another configuratton for personal use without reference to any job or role. It is critical that the user always has control over which information is shared in which context, if at all.
 
 An extremely unlikely circumstance, wherein some user creates and publishes Smart Contact information for some other person, without permission, could be considered a violation of a person’s privacy. While this is difficult to check, it is something to be aware of, and it may come to pass that user verification is required, via email, phone number check, or similar. Verifying an email address seems like an easy first pass, though this requires that a user share this personal information where they not want to share their email address in general. It is something to ponder sooner rather than later.
 
@@ -51,7 +51,7 @@ Individual stories may be converted into Issues, or consolidated or exploded as 
 
 **Terms**:
 
-- **Consumer**: an end user of Smart Contacts, may be a human or some automation.
+- **Consumer**: an end user of Smart Contacts, may be a human or some automation, and may be creating Contacts and/or Consuming Contacts.
 - **ExtSource**: an external origin for contacts to capture, store, and possibly re-publish
 - **IntSource**: an internal origin of contacts to store and publish.
 - **Peer**: a special case Consumer or ExtSource, often both.
@@ -59,9 +59,27 @@ Individual stories may be converted into Issues, or consolidated or exploded as 
 
 ### Typical Uses
 
-- **Card**: As a Consumer, I need to know when my bus will arrive so that I can plan my arrival at the bus stop accordingly.
-  - **Conversation**: Each Consumer of transit services has their own journey to make from their actual point of origin to the bus stop at which they will wait for the arrival of their bus.
+- **Card**: As a Consumer, I would like to publish my Contact information to the Smart Contact server.
+  - **Conversation**: The implication here is that a Consumer needs to create an account of some kind (this is purposely vague for this User Story) and then create a Contact associated with their account, with information they provide which may or may not match exactly their account information (eg a different email address, a different full name, a different role at org, etc etc).
   - **Confirmation**:
-    - Consumer is able to determine estimated versus scheduled arrival time for any route at any stop, with statistical information presented in clear terms (% on time, etc)
+    - Consumer is able to create a Contact record with field values they provide.
 
 ---
+
+- **Card**: As a Consumer, I would like to publish multiple variable Contact informations to the Smart Contact server, without each Contact associated with another to other Consumers.
+  - **Conversation**: Once a Consumer can create one Contact record, they are able to connect multiple Contact records, with variable information as they see fit, with each Contact record completely separate from every other owned by that Consumer. This enables a Consumer to share their Contact information in different contexts, with different information for each, as they see fit.
+  - **Confirmation**:
+    - Consumer is able to create multiple Contact record with field values they provide, with each completely disassociated from the others when viewed or used by other Consumers.
+
+---
+
+- **Card**: As a Consumer, I would like to publish a specific Contact in a profile or similar for public consumption in search results or via other links.
+  - **Conversation**: One Consumer publishes their Contact information to the Smart Contact server, and another Consumer (or even the same Consumer) searches for that Contact information via some query keys, the result of that search, or perhaps the Contact revealed in a direct public URL, is selectable and controllable by the Consumer that owns that Contact record among one or more Contact records.
+    - Consumer is able to select a specific Contact record that is made public in a search results profile or similar, without identifying other Contact records owned by the Consumer.
+
+---
+
+- **Card**: As a Consumer, I would like to view a Contact in a mobile or desktop web browser.
+  - **Conversation**: A Contact record visible via a browser-based web page is useful for associating public Contact information with a public Event or other content (within the Smart Social system or otherwise). The profile view of a Contact record should include appropriate meta tag data and schema.org annotation. The Contact record may also be displayed with a VCard (.vcf) link so Consumer may download the Contact record information in standard form.
+  - **Confirmation**:
+    - Consumer may view a public Contact record in their web browser, as normal web content, with a link to download the VCard form of the Contact record for their own uses.
