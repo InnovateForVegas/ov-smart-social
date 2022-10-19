@@ -19,19 +19,29 @@
 
 # Smart Social Smart Contacts
 
+This is the age of the QR Code, used often to share URLs for websites and sign-in forms and whatnot, but perhaps more so to share contact information. Contact information across platforms, across devices, across language barriers, across any divide, is a constant requirement every day, and it can be made more useful with some creative application of existing standards and offline device features.
+
+The Smart Contacts component of Smart Social should function independently, but is intended to integrate nicely with other Smart Social components and external services.
+
 ## Highest Priority Considerations
+
+It is often the case that a person would like to share one contact configuration in one context, and some other configuration in another. For examples (see User Stories section for more detail), a user may want to have contact information to share for one job or role, another set for a completely different job or role, and yet another configuraton for personal use without reference to any job or role. It is critical that the user always has control over which information is shared in which context, if at all.
+
+An extremely unlikely circumstance, wherein some user creates and publishes Smart Contact information for some other person, without permission, could be considered a violation of a person’s privacy. While this is difficult to check, it is something to be aware of, and it may come to pass that user verification is required, via email, phone number check, or similar. Verifying an email address seems like an easy first pass, though this requires that a user share this personal information where they not want to share their email address in general. It is something to ponder sooner rather than later.
 
 ## Specification Details
 
 If a Smart City relies on Twitter and Nextdoor to inform its population of important updates, there is something missing. That is Smart Contacts.
 
-Maintaining a locale-based anonymous communication channel is reasoably simple with modern technology and enables one-way broadcast based on location, and two-way conversation regarding service requests and other lower-priority discussion (this would not be intended to take the place of emergency services contacts such as 9-1-1 and similar).
+Maintaining a locale-based anonymous communication channel is reasonably simple with modern technology and enables one-way broadcast based on location, and two-way conversation regarding service requests and other lower-priority discussion (this would not be intended to take the place of emergency services contacts such as 9-1-1 and similar).
 
 ## External Reference Materials
 
 [vCard RFC](https://datatracker.ietf.org/doc/html/rfc6350)
 
 [CardDAV RFC](https://datatracker.ietf.org/doc/html/rfc6352)
+
+[Lightweight Directory Access Protocol](https://ldap.com/)
 
 [Schema.org Person type](https://schema.org/Person)
 
@@ -41,10 +51,11 @@ Individual stories may be converted into Issues, or consolidated or exploded as 
 
 **Terms**:
 
-- **Consumer**: a user of Smart Contacts services in general, usually a person but possibly automation tools.
-- **Operator**: a bus driver, and so on.
-- **Controller**: a transit operations staff member, and so on.
-- **Company**: a transit company, commission, or other agency overseeing transit services
+- **Consumer**: an end user of Smart Contacts, may be a human or some automation.
+- **ExtSource**: an external origin for contacts to capture, store, and possibly re-publish
+- **IntSource**: an internal origin of contacts to store and publish.
+- **Peer**: a special case Consumer or ExtSource, often both.
+- **Developer**: one who makes use of Smart Contacts APIs (or CardDAV) or similar to build on the platform
 
 ### Typical Uses
 

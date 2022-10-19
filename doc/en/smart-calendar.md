@@ -23,7 +23,9 @@ The challenge is discovery and Las Vegas is not an environment easy to navigate 
 
 Since a calendar is a familiar tool used by many people today (most if not all mobile phones incorporate a Google or Apple calendar for examples, not to mention day-to-day use in workplaces, schools, and so on), it is a functional, but familiar way to introduce the Smart Social platform, and so it is aimed to be the first component rolled out.
 
-A Famliar Surprise.
+A Familiar Surprise.
+
+The Smart Calendar component of Smart Social should function independently, but is intended to integrate nicely with other Smart Social components and external services.
 
 ## Highest Priority Considerations
 
@@ -51,10 +53,12 @@ Individual stories may be converted into Issues, or consolidated or exploded as 
 
 **Terms**:
 
-- **Consumer**: a user of Smart Calendar services in general, usually a person but possibly automation tools.
-- **Organizer**: a user or service which owns calendars and calendar objects, sends invites and updates, and receives RSVP messages from Consumers.
-- **Developer**: a user of Smart Calendar services who is creating tools or services making use of Smart Calendar APIs and data.
-- **Company**: a transit company, commission, or other agency overseeing transit services
+- **Consumer**: an end user of Smart Calendars, may be a human or some automation.
+- **Organizer**: an end user of Smart Calendars, either as Publisher or Source
+- **ExtSource**: an external origin for Calendar content to capture, store, and possibly re-publish
+- **IntSource**: an internal origin of Calendar content to store and publish.
+- **Peer**: a special case ExtSource or IntSource.
+- **Developer**: one who makes use of Smart Calendar APIs (or CalDAV) or similar to build on the platform
 
 ### Typical Uses
 
