@@ -23,9 +23,10 @@ The Smart Social project is composed of several components, each ideally develop
 
 The specification is broken down along those component lines with the following (with links to individual local specification files):
 
-| Component                                        | Description                                                  |
-|--------------------------------------------------|--------------------------------------------------------------|
-| [Smart Calendar](smart-calendar.md)              | CalDAV Server with sharing and event publishing and more     |
-| [Smart Contacts](smart-contacts.md)              | CardDAV Server with sharing and profile publishing and more  |
-| [Smart Messaging](smart-messaging.md)            | Decentralized, encrypted Chat and Communications             |
-| [Smart News](smart-news.md)                      | Announcement broadcast and information sharing at scale      |
+| Component                                        | Description                                                     |
+|--------------------------------------------------|-----------------------------------------------------------------|
+| [Smart Calendar](smart-calendar.md)              | CalDAV Server with sharing and event publishing and more        |
+| [Smart Contacts](smart-contacts.md)              | CardDAV Server with sharing and profile publishing and more     |
+| [Smart Messaging](smart-messaging.md)            | Decentralized, encrypted Chat and Communications                |
+| [Smart News](smart-news.md)                      | Announcement broadcast and information sharing at scale         |
+| [Integrations](integration.md)                   | Smart Social modules interoperating, and integrating externally |
