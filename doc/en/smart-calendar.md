@@ -66,6 +66,6 @@ Individual stories may be converted into Issues, or consolidated or exploded as 
 - **Card**: As a Organizer, I need to know when my guests are going to arrive and when the reservation starts.
   - **Conversation**: The Organizer has a dynamic list of the number of guests attending and keep track of time.
   - **Confirmation**:
-    - Organizer is able to see who rsvped and when their event ends
+    - Organizer is able to see who rsvped and when their event ends.
 
 ---
