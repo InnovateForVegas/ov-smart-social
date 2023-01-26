@@ -37,27 +37,3 @@ Unless otherwise and specifically indicated with replacement files in this repos
 All Innovate for Vegas Foundation projects, whether CodeFor or CreateFor, assume contributors and collaborators are familiar with the HOWTOs that detail such things as use of GitHub, the difference between CodeFor and CreateFor parts of our organization, and our approach to Agile for Volunteers (or Volunteer Agile) which will, like all our projects, be a collaborative work in progress. These, coupled with the Contributing document linked above, are important and you should be familiar with them before diving in.
 
 * [Organization HOWTOs](https://github.com/InnovateForVegas/doc-org-howtos)
-
-## General Focus Areas
-
-As a preliminary feature set, it makes sense to aim for broadly accepted and long-established tools and platforms that already work. Rather than re-inventing a wheel and asking for yet more user sign-ups, leveraging open protocols and tools, and methods and software people are all likely familiar with, will help to drive early adoption and continued ideation.
-
-This is the *Familiar Surprise* approach.
-
-Basically, if the Smart Social platform can leverage tools already in use, established, tried-and-true, we can add features and functionality to existing platforms and enhance expectations rather than subverting them.
-
-## Specification Documents
-
-The specification(s) for the various components and goals of this project are located in the [Doc](doc/README.md) directory. Note that there should be localized versions of the specification documents as needed in this subdirectory.
-
-## Project Backlog
-
-As this project adds component repositories, specific GitHub issues may be opened against individual repos for relevant bugs, missing features, and so on. Prior to the relevant repository existing, an issue backlog may be created against this overview repository. When an appropriate component repository has been created, an issue may be created against the repository with a reference to the issue opened against this overview repository (Double-linking is encouraged).
-
-## Inspiration
-
-[Raymond Loewy - MAYA - Familiar Surprise](https://uxdesign.cc/most-advanced-yet-acceptable-theory-meets-digital-product-innovation-f14897147dd5)
-
-    “To sell something surprising, make it familiar; to sell something familiar, make it surprising.”
-
-    — Raymond Loewy
