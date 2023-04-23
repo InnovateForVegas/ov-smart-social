@@ -64,6 +64,8 @@ Individual stories may be converted into Issues, or consolidated or exploded as 
   - **Confirmation**:
     - Consumer is able to create a Contact record with field values they provide.
 
+Converted to https://github.com/InnovateForVegas/ov-smart-social/issues/9
+
 ---
 
 - **Card**: As a Consumer, I would like to publish multiple variable Contact informations to the Smart Contact server, without each Contact associated with another to other Consumers.
@@ -71,11 +73,15 @@ Individual stories may be converted into Issues, or consolidated or exploded as 
   - **Confirmation**:
     - Consumer is able to create multiple Contact record with field values they provide, with each completely disassociated from the others when viewed or used by other Consumers.
 
+Converted to https://github.com/InnovateForVegas/ov-smart-social/issues/10
+
 ---
 
 - **Card**: As a Consumer, I would like to publish a specific Contact in a profile or similar for public consumption in search results or via other links.
   - **Conversation**: One Consumer publishes their Contact information to the Smart Contact server, and another Consumer (or even the same Consumer) searches for that Contact information via some query keys, the result of that search, or perhaps the Contact revealed in a direct public URL, is selectable and controllable by the Consumer that owns that Contact record among one or more Contact records.
     - Consumer is able to select a specific Contact record that is made public in a search results profile or similar, without identifying other Contact records owned by the Consumer.
+
+Converted to https://github.com/InnovateForVegas/ov-smart-social/issues/11
 
 ---
 
@@ -83,3 +89,5 @@ Individual stories may be converted into Issues, or consolidated or exploded as 
   - **Conversation**: A Contact record visible via a browser-based web page is useful for associating public Contact information with a public Event or other content (within the Smart Social system or otherwise). The profile view of a Contact record should include appropriate meta tag data and schema.org annotation. The Contact record may also be displayed with a VCard (.vcf) link so Consumer may download the Contact record information in standard form.
   - **Confirmation**:
     - Consumer may view a public Contact record in their web browser, as normal web content, with a link to download the VCard form of the Contact record for their own uses.
+
+Converted to https://github.com/InnovateForVegas/ov-smart-social/issues/12

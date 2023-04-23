@@ -93,4 +93,6 @@ Individual stories may be converted into Issues, or consolidated or exploded as 
   - **Confirmation**:
     - Consumer is able to receive Smart News items via email, chat, or other supported Smart Messaging channels under their control.
 
+Converted to https://github.com/InnovateForVegas/ov-smart-social/issues/18
+
 ---

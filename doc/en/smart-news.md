@@ -66,6 +66,8 @@ Individual stories may be converted into Issues, or consolidated or exploded as 
   - **Confirmation**:
     - Consumer is able to receive a current selection of news and announcement items according to some preferences of topics, keywords, or geographical region.
 
+Converted to https://github.com/InnovateForVegas/ov-smart-social/issues/15
+
 ---
 
 - **Card**: As a Consumer, I would like to view my selected news and announcement items in my web browser.
@@ -73,11 +75,15 @@ Individual stories may be converted into Issues, or consolidated or exploded as 
   - **Confirmation**:
     - Consumer is able view their selected News items in their web browser of choice across platforms and devices.
 
+Converted to https://github.com/InnovateForVegas/ov-smart-social/issues/16
+
 ---
 
 - **Card**: As a Consumer, I would like to share a particular News or announcement item to others.
   - **Conversation**: The modern era is built on the sharing economy, Consumer should be able to share a link discovered via their News feed to anyone, using social media tools, email, or Smart Social features, or any combination thereof.
   - **Confirmation**:
     - Consumer is able share a direct link to a selected News or announcement item using the sharing channel(s) of their choice.
+
+Converted to https://github.com/InnovateForVegas/ov-smart-social/issues/17
 
 ---
