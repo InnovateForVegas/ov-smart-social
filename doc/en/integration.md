@@ -76,8 +76,6 @@ Implementing access to third party services, or to other services related more c
 
 ## User Stories
 
-Individual stories may be converted into Issues, or consolidated or exploded as needed for development and implementation.
-
 **Terms**:
 
 - **Consumer**: an end user of Smart Social, may be a human or some automation.
@@ -86,13 +84,4 @@ Individual stories may be converted into Issues, or consolidated or exploded as 
 - **Peer**: a special case ExtSource or IntSource. Likely another, separate instance of Smart Social modules.
 - **Developer**: one who makes use of Smart Social APIs to build on the platform
 
-### Typical Uses
-
-- **Card**: As a Consumer, I would like to receive Smart News items via my Smart Messaging contact channels.
-  - **Conversation**: Smart Messaging with email digests and end-to-end chat with notifications are both possibilities to share news items directly to a Consumer as they like. This is a classic push-to-Consumer approach, as opposed to publication on a web page for Consumer-pull, which is also to be supported.
-  - **Confirmation**:
-    - Consumer is able to receive Smart News items via email, chat, or other supported Smart Messaging channels under their control.
-
-Converted to https://github.com/InnovateForVegas/ov-smart-social/issues/18
-
----
+User Stories are implemented as [GitHub Story Issues in the Overview Repository](https://github.com/InnovateForVegas/ov-smart-social/issues)

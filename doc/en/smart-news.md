@@ -49,8 +49,6 @@ Case in point, at the time of the preparation of this overview, water levels at 
 
 ## User Stories
 
-Individual stories may be converted into Issues, or consolidated or exploded as needed for development and implementation.
-
 **Terms**:
 
 - **Consumer**: an end user of Smart News content, may be a human or some automation.
@@ -59,31 +57,4 @@ Individual stories may be converted into Issues, or consolidated or exploded as 
 - **Peer**: a special case Consumer or ExtSource.
 - **Developer**: one who makes use of Smart News APIs or similar to build on the platform
 
-### Typical Uses
-
-- **Card**: As a Consumer, I would like to be able to view a list of current announcements related to a topic or topics that interest me.
-  - **Conversation**: This is essentially a subscription to news or announcement topics, similar to subscribing to RSS feeds, following hashtags, etc. While this seems simple, it is a core feature of Smart News and in a larger sense, Smart Social. Properly-published items with geographical information included will support grouping and presentation by region among other facets.
-  - **Confirmation**:
-    - Consumer is able to receive a current selection of news and announcement items according to some preferences of topics, keywords, or geographical region.
-
-Converted to https://github.com/InnovateForVegas/ov-smart-social/issues/15
-
----
-
-- **Card**: As a Consumer, I would like to view my selected news and announcement items in my web browser.
-  - **Conversation**: Viewing news and announcements according to selected query terms and filters via a desktop or mobile web browser should be considered baseline functionality.
-  - **Confirmation**:
-    - Consumer is able view their selected News items in their web browser of choice across platforms and devices.
-
-Converted to https://github.com/InnovateForVegas/ov-smart-social/issues/16
-
----
-
-- **Card**: As a Consumer, I would like to share a particular News or announcement item to others.
-  - **Conversation**: The modern era is built on the sharing economy, Consumer should be able to share a link discovered via their News feed to anyone, using social media tools, email, or Smart Social features, or any combination thereof.
-  - **Confirmation**:
-    - Consumer is able share a direct link to a selected News or announcement item using the sharing channel(s) of their choice.
-
-Converted to https://github.com/InnovateForVegas/ov-smart-social/issues/17
-
----
+User Stories are implemented as [GitHub Story Issues in the Overview Repository](https://github.com/InnovateForVegas/ov-smart-social/issues)

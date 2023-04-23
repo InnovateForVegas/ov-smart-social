@@ -45,8 +45,6 @@ General spam is also a concern across messaging methods and is also a priority, 
 
 ## User Stories
 
-Individual stories may be converted into Issues, or consolidated or exploded as needed for development and implementation.
-
 **Terms**:
 
 - **Consumer**: an end user of Smart Messaging, may be a human or some automation.
@@ -55,22 +53,4 @@ Individual stories may be converted into Issues, or consolidated or exploded as 
 - **Peer**: a special case Consumer or ExtSource.
 - **Developer**: one who makes use of Smart Messaging APIs or similar to build on the platform
 
-### Typical Uses
-
-- **Card**: As a Consumer, I would like to receive notifications from selected authentic agencies, services, and/or individuals via chat messages.
-  - **Conversation**: One goal of the Smart Messaging component of Smart Social is to enable point-to-point, end-to-end-encrypted notifications and two-way messaging in general. This would take the place of Twitter or other social media platforms for notifying members of a community of a particular situation, emergency or otherwise.
-  - **Confirmation**:
-    - Consumer is able to receive select notifications from sources which have been authenticated and which are known to be trusted and authoritative.
-
-Converted to https://github.com/InnovateForVegas/ov-smart-social/issues/13
-
----
-
-- **Card**: As a Consumer, I would like to receive a digest of selected information and updates via email on a daily or other time interval.
-  - **Conversation**: One goal of the Smart Messaging component of Smart Social is to enable the dissemination of information to interested Consumers, in this case via Email. An email digest enables a Consumer to receive more information in fewer email messages, which they may save, read, or discard, at their discretion.
-  - **Confirmation**:
-    - Consumer is able to receive select pieces of information via email, collected in an email digest message.
-
-https://github.com/InnovateForVegas/ov-smart-social/issues/14
-
----
+User Stories are implemented as [GitHub Story Issues in the Overview Repository](https://github.com/InnovateForVegas/ov-smart-social/issues)
